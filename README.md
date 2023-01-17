@@ -7,7 +7,7 @@ Add this line below and run bundle.
 ```ruby
 gem 'i18n_remote', '~> 0.1.1'
 ```
-Add the following lines to configure i18n to use the backend provided by i18n_remote.
+Add the following lines to configure i18n to chain the I18nRemote backend to the i18n's simple backend.
 
 ```ruby
 params = { filenames: ['translation_file_1', 'translation_file_2'], translations_server: 'https://your_translation_server'}
