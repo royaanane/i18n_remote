@@ -35,3 +35,12 @@ The remote files to be fetched should have the following JSON format
 ```ruby
   params = { filenames: ['translation_file_1', 'translation_file_2'], translations_server: 'https://my-json-server.typicode.com/royaanane/translations/'}
 ```
+
+It will allow you to use the translation files below.
+
+```ruby
+  https://my-json-server.typicode.com/royaanane/translations/translation_file_1
+  https://my-json-server.typicode.com/royaanane/translations/translation_file_2
+```
+
+Update your local translation files accordginly for fallback in case of network errors or in case of a missing key in the remote files. 
