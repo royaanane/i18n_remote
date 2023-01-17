@@ -2,10 +2,10 @@ This gem is built on top of the i18n library.
 It allows for fetching translations remotely. 
 To do so, your app needs to already have the i18n gem.
 
-Add this line below and run bundle install. 
+Add this line below and run bundle. 
 
 ```ruby
-gem 'i18n_remote'
+gem 'i18n_remote', '~> 0.1.1'
 ```
 Add the following lines to configure i18n to use the backend provided by i18n_remote.
 
