@@ -12,7 +12,7 @@ Add the following lines to configure i18n to chain the I18nRemote backend to the
 ```ruby
 params = { filenames: ['translation_file_1', 'translation_file_2'], translations_server: 'https://your_translation_server'}
 
-I18n.backend = I18n.backend = I18n::Backend::Chain.new(I18nRemote::Backend::RemoteFile.new(params), I18n.backend)
+I18n.backend = I18n::Backend::Chain.new(I18nRemote::Backend::RemoteFile.new(params), I18n.backend)
 ```
 
 
